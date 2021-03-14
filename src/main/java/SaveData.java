@@ -16,7 +16,16 @@ public class SaveData {
         return estCredit;
     }
     public String setCheminAccesFichier(){
-        return "C://Users/ludov/OneDrive/Code/java/sauvegardeDesDonnes/doc" + MyAmazingBot.premierUserFirstName + ".txt";
+        if (estAchat) {
+            return "C://Users/ludov/OneDrive/Code/java/sauvegardeDesDonnes/doc_" + MyAmazingBot.premierUserFirstName + "_achat" + ".txt";
+        }
+        if (estVendue) {
+            return "C://Users/ludov/OneDrive/Code/java/sauvegardeDesDonnes/doc_" + MyAmazingBot.premierUserFirstName + "_vente" + ".txt";
+        }
+        if (estCredit) {
+            return "C://Users/ludov/OneDrive/Code/java/sauvegardeDesDonnes/doc_" + MyAmazingBot.premierUserFirstName + "_credit" + ".txt";
+        }
+    return "pas de fichier";
     }
     public void setEstAchat(boolean estAchatParam){
         estAchat = estAchatParam;
