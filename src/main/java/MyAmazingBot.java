@@ -11,7 +11,8 @@ public class MyAmazingBot extends TelegramLongPollingBot {
     private final AfficherTexte afficherTexte = new AfficherTexte();
     private final SaveData saveData = new SaveData();
 
-    // variable du nom
+    // variable du nom test git !!
+    //testtt
     static String premierUserFirstName;
     public String user;
 
