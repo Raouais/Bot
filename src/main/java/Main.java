@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
         try {
             TelegramBotsApi telegramBotsApi = new TelegramBotsApi(DefaultBotSession.class);
-            telegramBotsApi.registerBot(new MyAmazingBot());
+            telegramBotsApi.registerBot(new MyAmazingBot2());
         } catch (TelegramApiException e) {
             e.printStackTrace();
         }

@@ -1,15 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="telegram_bot:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2595eb78-8e3a-4299-b2ef-62c84e6f69c4" name="Default Changelist" comment="test depuis intelliJ">
+    <list default="true" id="2595eb78-8e3a-4299-b2ef-62c84e6f69c4" name="Default Changelist" comment="avec gestion des noms">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/telegram_bot_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a2b5a2ec-d0da-4aa0-8aac-8dff987aeb85.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a2b5a2ec-d0da-4aa0-8aac-8dff987aeb85/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a2b5a2ec-d0da-4aa0-8aac-8dff987aeb85/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a2b5a2ec-d0da-4aa0-8aac-8dff987aeb85/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a2b5a2ec-d0da-4aa0-8aac-8dff987aeb85/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e6a814dd-3a65-4ea8-9038-d66cdf943d17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e6a814dd-3a65-4ea8-9038-d66cdf943d17/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e6a814dd-3a65-4ea8-9038-d66cdf943d17/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e6a814dd-3a65-4ea8-9038-d66cdf943d17/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e6a814dd-3a65-4ea8-9038-d66cdf943d17/storage_v2/_src_/schema/phpmyadmin.q9h56A.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e6a814dd-3a65-4ea8-9038-d66cdf943d17/storage_v2/_src_/schema/test.kkQ2AA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e6a814dd-3a65-4ea8-9038-d66cdf943d17/storage_v2/_src_/schema/test_ludo.YVuluQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_14_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MyAmazingBot2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/POO/AjouterDonnees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/POO/CallOfDuty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/POO/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/POO/ClientsImporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/POO/Portefeuille.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/POO/Principale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/POO/Root.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/POO/Vendeur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AfficherTexte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AfficherTexte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CompteAchat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CompteAchat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyAmazingBot.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SaveData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SaveData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ScheduleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ScheduleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AfficherTexte.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AfficherTexte.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CompteAchat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CompteAchat.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MyAmazingBot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyAmazingBot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyAmazingBot.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/SaveData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SaveData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ScheduleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ScheduleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram_bot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/telegram_bot.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,28 +85,69 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/POO/Principale.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/POO/Root.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/POO/Client.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/POO/AjouterDonnees.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/POO/Vendeur.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/SaveData.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/MyAmazingBot2.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/POO/Portefeuille.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1pOIQob4t7yA3VLGHg78H6LthQ8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlite&#10;mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/json-simple-1.1.1.jar" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RunManager" selected="Application.Main">
+    <configuration name="ClientsImporter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="POO.ClientsImporter" />
+      <module name="telegram_bot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="POO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="telegram_bot" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Principale" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="POO.Principale" />
+      <module name="telegram_bot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="POO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -73,20 +159,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ClientsImporter" />
+        <item itemvalue="Application.Principale" />
         <item itemvalue="Application.SauvegarderDonnee" />
       </list>
     </recent_temporary>
@@ -108,7 +185,59 @@
       <workItem from="1615466318648" duration="607000" />
       <workItem from="1615490877289" duration="1523000" />
       <workItem from="1615643693567" duration="10329000" />
-      <workItem from="1615747413105" duration="1560000" />
+      <workItem from="1615747413105" duration="3407000" />
+      <workItem from="1615765578340" duration="762000" />
+      <workItem from="1615889554885" duration="957000" />
+      <workItem from="1615906876350" duration="688000" />
+      <workItem from="1615910137240" duration="3017000" />
+      <workItem from="1615929686452" duration="7824000" />
+      <workItem from="1615969971715" duration="62000" />
+      <workItem from="1615990329886" duration="962000" />
+      <workItem from="1616580621255" duration="728000" />
+      <workItem from="1617095248672" duration="220000" />
+      <workItem from="1617095511487" duration="47000" />
+      <workItem from="1617363756200" duration="45777000" />
+      <workItem from="1617465364625" duration="15853000" />
+      <workItem from="1617538246963" duration="7502000" />
+      <workItem from="1617650404842" duration="5029000" />
+      <workItem from="1617704853190" duration="7766000" />
+      <workItem from="1617970397817" duration="676000" />
+      <workItem from="1617974795656" duration="1196000" />
+      <workItem from="1618057517767" duration="3994000" />
+      <workItem from="1618490525280" duration="1207000" />
+      <workItem from="1618504605500" duration="1085000" />
+      <workItem from="1618575750706" duration="1425000" />
+      <workItem from="1618769277467" duration="366000" />
+      <workItem from="1618840459459" duration="5457000" />
+      <workItem from="1618847399919" duration="451000" />
+      <workItem from="1618848171120" duration="18887000" />
+      <workItem from="1619013762600" duration="4897000" />
+      <workItem from="1619019490303" duration="3583000" />
+      <workItem from="1619025381509" duration="4813000" />
+      <workItem from="1619099447090" duration="4089000" />
+      <workItem from="1619168685803" duration="1188000" />
+      <workItem from="1619212718106" duration="1807000" />
+      <workItem from="1619263474736" duration="599000" />
+      <workItem from="1619277279317" duration="1225000" />
+      <workItem from="1623338329059" duration="4539000" />
+      <workItem from="1623408814652" duration="99000" />
+      <workItem from="1623410838357" duration="66000" />
+      <workItem from="1623427570167" duration="1553000" />
+      <workItem from="1623435107613" duration="6324000" />
+      <workItem from="1623788578648" duration="863000" />
+      <workItem from="1624363309003" duration="421000" />
+      <workItem from="1624363753727" duration="447000" />
+      <workItem from="1624379688917" duration="3530000" />
+      <workItem from="1624488106283" duration="5644000" />
+      <workItem from="1624706846932" duration="228000" />
+      <workItem from="1624707092696" duration="298000" />
+      <workItem from="1624707642269" duration="14072000" />
+      <workItem from="1624787760718" duration="11499000" />
+      <workItem from="1624872804703" duration="12447000" />
+      <workItem from="1625064810415" duration="596000" />
+      <workItem from="1625065654981" duration="1963000" />
+      <workItem from="1636198496727" duration="480000" />
+      <workItem from="1636199004426" duration="29000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1615747160804</created>
@@ -131,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615748219654</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="avec gestion des noms">
+      <created>1615749007127</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615749007127</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,15 +300,29 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="test depuis intelliJ" />
-    <option name="LAST_COMMIT_MESSAGE" value="test depuis intelliJ" />
+    <MESSAGE value="avec gestion des noms" />
+    <option name="LAST_COMMIT_MESSAGE" value="avec gestion des noms" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/MyAmazingBot.java</url>
-          <line>53</line>
+          <url>file://$PROJECT_DIR$/src/main/java/MyAmazingBot2.java</url>
+          <line>229</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/POO/Portefeuille.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/POO/Client.java</url>
+          <line>38</line>
+          <properties class="POO.Client" method="rembourser">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

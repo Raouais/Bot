@@ -2,8 +2,10 @@ import java.io.*;
 
 public class SaveData {
     public boolean estAchat = false;
-    private boolean estVendue = false;
-    private boolean estCredit = false;
+    public boolean estVendue = false;
+    public boolean estCredit = false;
+
+
 
 
     public boolean getEstAchat(){
@@ -15,15 +17,16 @@ public class SaveData {
     public boolean getEstCredit(){
         return estCredit;
     }
-    public String setCheminAccesFichier(){
+    public String getCheminAccesFichier(){
         if (estAchat) {
-            return "C://Users/ludov/OneDrive/Code/java/sauvegardeDesDonnes/doc_" + MyAmazingBot.premierUserFirstName + "_achat" + ".txt";
+            //return "./achat";
+            return "C://Users/ludov/OneDrive/Code/java/sauvegardeDesDonnes/doc_" + MyAmazingBot2.premierUserFirstName + "_achat" + ".txt";
         }
         if (estVendue) {
-            return "C://Users/ludov/OneDrive/Code/java/sauvegardeDesDonnes/doc_" + MyAmazingBot.premierUserFirstName + "_vente" + ".txt";
+            return "C://Users/ludov/OneDrive/Code/java/sauvegardeDesDonnes/doc_" + MyAmazingBot2.premierUserFirstName + "_vente" + ".txt";
         }
         if (estCredit) {
-            return "C://Users/ludov/OneDrive/Code/java/sauvegardeDesDonnes/doc_" + MyAmazingBot.premierUserFirstName + "_credit" + ".txt";
+            return "C://Users/ludov/OneDrive/Code/java/sauvegardeDesDonnes/doc_" + MyAmazingBot2.premierUserFirstName + "_credit" + ".txt";
         }
     return "pas de fichier";
     }
@@ -71,7 +74,7 @@ public class SaveData {
         if (getEstAchat()){
             System.out.println(getEstAchat() + " fuck ");
 
-            File file = new File(setCheminAccesFichier());
+            File file = new File(getCheminAccesFichier());
 
             // si on tape avant achat ça définit un booléen sur true et enregistre dnas un autre fichier les données
 
@@ -139,7 +142,7 @@ public class SaveData {
         } else {
             if (getEstVendue()){
                 System.out.println(getEstVendue());
-                File file = new File(setCheminAccesFichier());
+                File file = new File(getCheminAccesFichier());
 
                 double test2 = Double.parseDouble(message);
                 System.out.println(test2);
@@ -208,7 +211,7 @@ public class SaveData {
             } else {
                 if (getEstCredit()){
                     System.out.println(getEstCredit());
-                    File file = new File(setCheminAccesFichier());
+                    File file = new File(getCheminAccesFichier());
 
                     double test3 = Double.parseDouble(message);
                     System.out.println(test3);
@@ -280,3 +283,4 @@ public class SaveData {
         return 1;
     }
 }
+//faire une surchage de la méthode save avec un paramètre int.
