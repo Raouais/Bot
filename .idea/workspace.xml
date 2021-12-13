@@ -10,50 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2595eb78-8e3a-4299-b2ef-62c84e6f69c4" name="Default Changelist" comment="avec gestion des noms">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/telegram_bot_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a2b5a2ec-d0da-4aa0-8aac-8dff987aeb85.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a2b5a2ec-d0da-4aa0-8aac-8dff987aeb85/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a2b5a2ec-d0da-4aa0-8aac-8dff987aeb85/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a2b5a2ec-d0da-4aa0-8aac-8dff987aeb85/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a2b5a2ec-d0da-4aa0-8aac-8dff987aeb85/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e6a814dd-3a65-4ea8-9038-d66cdf943d17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e6a814dd-3a65-4ea8-9038-d66cdf943d17/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e6a814dd-3a65-4ea8-9038-d66cdf943d17/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e6a814dd-3a65-4ea8-9038-d66cdf943d17/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e6a814dd-3a65-4ea8-9038-d66cdf943d17/storage_v2/_src_/schema/phpmyadmin.q9h56A.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e6a814dd-3a65-4ea8-9038-d66cdf943d17/storage_v2/_src_/schema/test.kkQ2AA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e6a814dd-3a65-4ea8-9038-d66cdf943d17/storage_v2/_src_/schema/test_ludo.YVuluQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_14_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_17_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MyAmazingBot2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/POO/AjouterDonnees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/POO/CallOfDuty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/POO/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/POO/ClientsImporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/POO/Portefeuille.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/POO/Principale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/POO/Root.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/POO/Vendeur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AfficherTexte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AfficherTexte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CompteAchat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CompteAchat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MyAmazingBot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SaveData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SaveData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ScheduleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ScheduleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AfficherTexte.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AfficherTexte.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CompteAchat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CompteAchat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MyAmazingBot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SaveData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SaveData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ScheduleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ScheduleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a2b5a2ec-d0da-4aa0-8aac-8dff987aeb85.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a2b5a2ec-d0da-4aa0-8aac-8dff987aeb85.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e6a814dd-3a65-4ea8-9038-d66cdf943d17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e6a814dd-3a65-4ea8-9038-d66cdf943d17.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/telegram_bot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/telegram_bot.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,14 +45,17 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/POO/Principale.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/POO/Root.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/POO/Client.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/POO/Portefeuille.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/POO/AjouterDonnees.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/POO/Vendeur.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/POO/Vendeur.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/SaveData.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/MyAmazingBot2.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/POO/Portefeuille.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/POO/Root.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1pOIQob4t7yA3VLGHg78H6LthQ8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -238,6 +199,7 @@
       <workItem from="1625065654981" duration="1963000" />
       <workItem from="1636198496727" duration="480000" />
       <workItem from="1636199004426" duration="29000" />
+      <workItem from="1639424579605" duration="176000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1615747160804</created>
@@ -295,7 +257,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
