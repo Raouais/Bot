@@ -205,7 +205,7 @@ public class MyAmazingBot2 extends TelegramLongPollingBot {
                         if (text.equals("/start")){
 
                             SendMessage sendMessage = new SendMessage();
-                            sendMessage.setText("test");
+                            sendMessage.setText("testB");
                             sendMessage.setParseMode(ParseMode.MARKDOWN);
                             sendMessage.setChatId(String.valueOf(chat_id));
 
@@ -216,13 +216,18 @@ public class MyAmazingBot2 extends TelegramLongPollingBot {
                             KeyboardButton keyboardButton1 = new KeyboardButton();
                             KeyboardButton keyboardButton2 = new KeyboardButton();
                             keyboardButton1.setText("testA");
-                            keyboardButton2.setText("testB");
+                            keyboardButton2.setText("/start");
                             keyboardRow1.add(keyboardButton1);
                             keyboardRow1.add(keyboardButton2);
                             KeyboardRowList.add(keyboardRow1);
 
                             replyKeyboardMarkup.setKeyboard(KeyboardRowList);
                             sendMessage.setReplyMarkup(replyKeyboardMarkup);
+
+                            if (keyboardButton2.getText().equals("/start")){
+                                System.out.println("tu as appuyé sur le bouton de droite");
+                            }
+
 
                             try {
                                 execute(sendMessage);
@@ -238,7 +243,7 @@ public class MyAmazingBot2 extends TelegramLongPollingBot {
                             List<List<InlineKeyboardButton>> rowsInline = new ArrayList<>();
                             List<InlineKeyboardButton> rowInline = new ArrayList<>();
                             InlineKeyboardButton inlineKeyboardButton1 = new InlineKeyboardButton();
-                            inlineKeyboardButton1.setText("Update message text");
+                            inlineKeyboardButton1.setText("cliquez");
                             inlineKeyboardButton1.setCallbackData("update_msg_text");
                             rowInline.add(inlineKeyboardButton1);
                             // Set the keyboard to the markup
