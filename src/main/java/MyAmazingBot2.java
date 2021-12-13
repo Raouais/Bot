@@ -39,7 +39,7 @@ public class MyAmazingBot2 extends TelegramLongPollingBot {
     Vendeur premierVendeur = new Vendeur("maxo","starling", portefeuilleVendeur1, premierClient);
     Root premierRoot = new Root("snitch", "tales", 0.,0.,0.,0., 0., premierVendeur, premierClient, portefeuilleRoot1);
 
-    AjouterDonnees premierAjout = new AjouterDonnees();
+    //AjouterDonnees premierAjout = new AjouterDonnees();
 
 
     private final ScheduleService scheduleService = new ScheduleService();
@@ -179,7 +179,7 @@ public class MyAmazingBot2 extends TelegramLongPollingBot {
 
                 //
 
-
+                /*
                 try {
                     premierAjout.setConnection();
                 } catch (SQLException throwables) {
@@ -191,7 +191,7 @@ public class MyAmazingBot2 extends TelegramLongPollingBot {
                 } catch (SQLException throwables) {
                     throwables.printStackTrace();
                 }
-
+                */
 
                 // root vend à vendeur
                 premierRoot.venteVendeur(result);

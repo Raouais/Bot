@@ -11,6 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2595eb78-8e3a-4299-b2ef-62c84e6f69c4" name="Default Changelist" comment="avec gestion des noms">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyAmazingBot2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyAmazingBot2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +199,7 @@
       <workItem from="1636198496727" duration="480000" />
       <workItem from="1636199004426" duration="29000" />
       <workItem from="1639424579605" duration="176000" />
-      <workItem from="1639424827035" duration="51000" />
+      <workItem from="1639424827035" duration="879000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1615747160804</created>
