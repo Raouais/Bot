@@ -17,12 +17,9 @@ import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKe
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardButton;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardRow;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
-
 import java.io.IOException;
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-
 //import org.json.JSONObject;
 
 //Module création d'objet
@@ -31,33 +28,24 @@ public class MyAmazingBot2 extends TelegramLongPollingBot {
     Portefeuille portefeuilleRoot1 = new Portefeuille();
     Portefeuille portefeuilleClient1 = new Portefeuille();
     Portefeuille portefeuilleVendeur1 = new Portefeuille();
-
-
-
-
     Client premierClient = new Client("clats","deRue", portefeuilleClient1);
     Vendeur premierVendeur = new Vendeur("maxo","starling", portefeuilleVendeur1, premierClient);
     Root premierRoot = new Root("snitch", "tales", 0.,0.,0.,0., 0., premierVendeur, premierClient, portefeuilleRoot1);
 
     //AjouterDonnees premierAjout = new AjouterDonnees();
 
-
     private final ScheduleService scheduleService = new ScheduleService();
     private final CompteAchat compteAchat = new CompteAchat();
     private final AfficherTexte afficherTexte = new AfficherTexte();
     private final SaveData saveData = new SaveData();
-
     private boolean estAchat = false;
     private boolean estVendue = false;
     private boolean estCredit = false;
 
-
-    // variable du nom test git !!
-    //testtt
     static String premierUserFirstName;
+
     public String user;
     public String testReceiver;
-
 
     @Override
     public String getBotUsername() {
@@ -78,7 +66,6 @@ public class MyAmazingBot2 extends TelegramLongPollingBot {
     public void setEstCredit(boolean estCreditParam){
         estCredit = estCreditParam;
     }
-
 
     public void setDefaultAchatVendueCredit(){
         if (testReceiver.equals("achat")){
@@ -114,18 +101,10 @@ public class MyAmazingBot2 extends TelegramLongPollingBot {
 
     @Override
     public void onUpdateReceived(Update update) {
-        /*
-        System.out.println(update.getMessage().getText());
-        System.out.println(update.getMessage().getFrom().getFirstName());
-        System.out.println(update.getMessage().getFrom().getLastName());
-        */
-        //problème de getMessage car ils sont vide car getQuerry plus de message.
-
         if (update.hasMessage() && update.getMessage().hasText()) {
             String recevier = update.getMessage().getText();
 
             testReceiver = recevier;
-
 
             premierUserFirstName = update.getMessage().getFrom().getFirstName();
             var premierUserLastName = update.getMessage().getFrom().getLastName();
@@ -155,29 +134,12 @@ public class MyAmazingBot2 extends TelegramLongPollingBot {
 
                 var result5  = scheduleService.proccess2(update.getMessage().getText());
 
-
-
-
                 var message4 = SendMessage.builder()
                         .chatId(update.getMessage().getChatId().toString()).text(String.valueOf(result4))
                         .build();
                 var message5 = SendMessage.builder()
                         .chatId(update.getMessage().getChatId().toString()).text(String.valueOf(result5))
                         .build();
-
-                //test avec POO
-
-                //perso
-
-                //portefeuilleRoot1.ajouterArgentSurCompte(1,84);
-                //portefeuilleRoot1.ajouterArgentSurCompte(2,20);
-                //portefeuilleRoot1.ajouterArgentSurDette(130);
-                //portefeuilleRoot1.ajouterArgentSurCreance(30);
-
-                //portefeuilleRoot1.retirerArgentSurCompte(1,30);
-                //portefeuilleRoot1.retirerArgentSurCompte(1,80);
-
-                //
 
                 /*
                 try {
@@ -198,7 +160,6 @@ public class MyAmazingBot2 extends TelegramLongPollingBot {
                 // root vend à client
                 premierRoot.venteClient(result);
 
-
                 System.out.println(premierClient);
                 System.out.println(premierVendeur);
                 System.out.println(premierRoot);
@@ -206,7 +167,6 @@ public class MyAmazingBot2 extends TelegramLongPollingBot {
                 var result10 = premierRoot.toString(update.getMessage().getText());
                 var result11 = premierVendeur.toString(update.getMessage().getText());
                 var result12 = premierClient.toString(update.getMessage().getText());
-
 
                 var test10 = SendMessage.builder()
                         .chatId(update.getMessage().getChatId().toString()).text(String.valueOf(result10))
@@ -217,7 +177,6 @@ public class MyAmazingBot2 extends TelegramLongPollingBot {
                 var test12 = SendMessage.builder()
                         .chatId(update.getMessage().getChatId().toString()).text(String.valueOf(result12))
                         .build();
-
                     try {
                         execute(message2);
                         execute(message);
@@ -255,15 +214,15 @@ public class MyAmazingBot2 extends TelegramLongPollingBot {
                             List<KeyboardRow> KeyboardRowList = new ArrayList<>();
                             KeyboardRow keyboardRow1 = new KeyboardRow();
                             KeyboardButton keyboardButton1 = new KeyboardButton();
-                            keyboardButton1.setText("testA" + callOfDuty1);
+                            KeyboardButton keyboardButton2 = new KeyboardButton();
+                            keyboardButton1.setText("testA");
+                            keyboardButton2.setText("testB");
                             keyboardRow1.add(keyboardButton1);
+                            keyboardRow1.add(keyboardButton2);
                             KeyboardRowList.add(keyboardRow1);
 
                             replyKeyboardMarkup.setKeyboard(KeyboardRowList);
                             sendMessage.setReplyMarkup(replyKeyboardMarkup);
-
-
-
 
                             try {
                                 execute(sendMessage);
@@ -313,10 +272,6 @@ public class MyAmazingBot2 extends TelegramLongPollingBot {
                         premierVendeur.venteClient(saveData.save(recevier));
                     }
 
-
-
-
-
                     var result100 = premierVendeur.toString(update.getMessage().getText());
                     var message100 = SendMessage.builder()
                             .chatId(update.getMessage().getChatId().toString()).text(String.valueOf(result100))
@@ -328,7 +283,6 @@ public class MyAmazingBot2 extends TelegramLongPollingBot {
                         e.printStackTrace();
                     }
                 } else {
-
                     System.out.println("Client est connecté");
                     //Client achette à vendeur
                     premierVendeur.venteClient(result);
@@ -357,7 +311,6 @@ public class MyAmazingBot2 extends TelegramLongPollingBot {
                 String answer = "Updated message text";
                 System.out.println(answer);
 
-
                 EditMessageText new_message = new EditMessageText();
                 new_message.setChatId(String.valueOf(chat_id));
                 new_message.setMessageId(message_id);
@@ -376,7 +329,6 @@ public class MyAmazingBot2 extends TelegramLongPollingBot {
                         .addHeader("x-rapidapi-key", "b90a1daebemshb43c013454d216cp1a2d86jsn0c387bddeec4")
                         .addHeader("x-rapidapi-host", "call-of-duty-modern-warfare.p.rapidapi.com")
                         .build();
-
                 try {
                     Response response = client.newCall(request).execute();
                     String jsonData = response.body().string();
@@ -386,7 +338,6 @@ public class MyAmazingBot2 extends TelegramLongPollingBot {
                     System.out.println(matches.get("all"));
                     JSONObject kill = (JSONObject) matches.get("all");
                     System.out.println(kill.get("scorePerMinute"));
-
 
                     for (int i = 0; i < 20; i++){
                         JSONObject site = (JSONObject)(((JSONArray)forecast.get("matches")).get(i));
