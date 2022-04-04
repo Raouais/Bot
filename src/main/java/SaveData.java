@@ -5,8 +5,11 @@ public class SaveData {
     public boolean estVendue = false;
     public boolean estCredit = false;
 
+    private String userFirstName;
 
-
+    public void setUserFirstName(String username){
+        userFirstName = username;
+    }
 
     public boolean getEstAchat(){
         return estAchat;
@@ -20,13 +23,13 @@ public class SaveData {
     public String getCheminAccesFichier(){
         if (estAchat) {
             //return "./achat";
-            return "C://Users/ludov/OneDrive/Code/java/sauvegardeDesDonnes/doc_" + MyAmazingBot2.premierUserFirstName + "_achat" + ".txt";
+            return "C://Users/ludov/OneDrive/Code/java/sauvegardeDesDonnes/doc_" + userFirstName + "_achat" + ".txt";
         }
         if (estVendue) {
-            return "C://Users/ludov/OneDrive/Code/java/sauvegardeDesDonnes/doc_" + MyAmazingBot2.premierUserFirstName + "_vente" + ".txt";
+            return "C://Users/ludov/OneDrive/Code/java/sauvegardeDesDonnes/doc_" + userFirstName + "_vente" + ".txt";
         }
         if (estCredit) {
-            return "C://Users/ludov/OneDrive/Code/java/sauvegardeDesDonnes/doc_" + MyAmazingBot2.premierUserFirstName + "_credit" + ".txt";
+            return "C://Users/ludov/OneDrive/Code/java/sauvegardeDesDonnes/doc_" + userFirstName + "_credit" + ".txt";
         }
     return "pas de fichier";
     }

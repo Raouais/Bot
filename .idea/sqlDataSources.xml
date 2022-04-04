@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="29edc3a5-6ef6-4386-ba22-e618e243a59e" name="transactions@localhost [2] Mapping">
+      <data-sources db="ec92e66b-7f5f-495e-bd42-573a4792a28b" ddl="2be24230-ab26-49c7-bf35-5333f9fbfd3b" />
+      <scope>
+        <node negative="1">
+          <node kind="database" negative="1">
+            <node kind="schema" negative="1" />
+          </node>
+          <node kind="schema">
+            <name qname="information_schema" />
+            <name qname="mysql" />
+            <name qname="performance_schema" />
+            <name qname="sys" />
+            <name qname="transactions" />
+          </node>
+        </node>
+      </scope>
+    </mapping>
+  </component>
+</project>

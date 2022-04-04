@@ -16,5 +16,10 @@
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="api-v1-client-java-mvn-repo" />
+      <option name="name" value="api-v1-client-java-mvn-repo" />
+      <option name="url" value="https://raw.githubusercontent.com/blockchain/api-v1-client-java/mvn-repo/" />
+    </remote-repository>
   </component>
 </project>
